@@ -1,0 +1,43 @@
+{
+  "name": "mnemosyne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.ts",
+    "twsemini-cli": "cd src/cli && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "0.11.0",
+    "@langchain/community": "0.3.48",
+    "@langchain/core": "0.3.60",
+    "@langchain/ollama": "0.2.0",
+    "@langchain/qdrant": "^0.1.2",
+    "blessed": "0.1.81",
+    "boxen": "7.1.1",
+    "chalk": "5.3.0",
+    "faiss-node": "0.5.1",
+    "figlet": "1.7.0",
+    "gradient-string": "2.0.2",
+    "ink": "6.0.1",
+    "ink-select-input": "6.2.0",
+    "ink-text-input": "6.0.0",
+    "inquirer": "9.2.20",
+    "langchain": "0.3.29",
+    "pdf-parse": "1.1.1",
+    "react": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "1.5.8",
+    "@types/gradient-string": "1.1.6",
+    "@types/inquirer": "9.0.7",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "tsx": "4.20.3",
+    "typescript": "5.7.2"
+  }
+}
